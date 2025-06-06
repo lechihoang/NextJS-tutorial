@@ -1,0 +1,8 @@
+{
+  "root": true,
+  "extends": ["next", "next/core-web-vitals"],
+  "rules": {
+    // Ví dụ tắt rule “react/react-in-jsx-scope” (Next 12+ không cần import React)
+    "react/react-in-jsx-scope": "off"
+  }
+}
